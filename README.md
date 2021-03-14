@@ -1,2 +1,2 @@
-# usjt_aulas
+# USJT
 Projetos desenvolvidos na faculdade
