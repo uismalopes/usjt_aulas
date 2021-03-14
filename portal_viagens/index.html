@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Viagens</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/global.css">
+</head>
+
+<body>
+  <nav id="nav">
+    <div class="container">
+      <span class="title">PORTAL DE VIAGENS</span>
+      <label for="input-check-menu" class="icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <input type="checkbox" id="input-check-menu">
+      <ul>
+        <li>
+          <a href="#">destinos</a>
+        </li>
+        <li>
+          <a href="#">valores</a>
+        </li>
+        <li>
+          <a href="#">contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="banner">
+      <div class="container">
+        <div class="thumb">
+          <img src="./assets/images/nave.png" alt="">
+        </div>
+        <p class="big-title">as melhores naves</p>
+        <h3>
+          Preços especiais para os planetas da federação galáctica. Visite ainda universos, dimensões e realidades
+          alternativas.
+        </h3>
+      </div>
+    </div>
+    <div class="container">
+      <div class="content">
+        <p class="medium-title">
+          consultar valores
+        </p>
+        <form>
+          <div class="group-field">
+            <label for="origem">Origem</label>
+            <input type="text" id="origem" class="field" required>
+          </div>
+          <div class="group-field">
+            <label for="destino">Destino</label>
+            <input type="text" id="destino" class="field" required>
+          </div>
+          <div class="group-field">
+            <label for="data_partida">Data de partida</label>
+            <input type="date" id="data_partida" class="field" required>
+          </div>
+          <div class="group-field">
+            <label for="data_volta">Data de volta</label>
+            <input type="date" id="data_volta" class="field" required>
+          </div>
+          <button type="submit">
+            Consultar
+          </button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>
