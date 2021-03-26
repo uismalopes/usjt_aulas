@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de viagens</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/global.css">
+</head>
+
+<body>
+    <nav class="navbar menu navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand text-white text-white text-uppercase font-weight-bold" href="#">Portal de Viagens</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-uppercase" href="#destinos">destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-uppercase" href="#valores">valores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-uppercase" href="#contato">contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="banner py-5">
+        <div class="container text-center">
+            <div class="text-center">
+                <img src="./assets/images/nave.png" alt="" class="img-fluid">
+            </div>
+            <h1 class="text-white text-uppercase">
+                <strong>as melhores naves</strong>
+            </h1>
+            <h5 class="text-white mx-auto my-4">
+                Preços especiais para os planetas da federação galáctica. Visite ainda universos, dimensões e realidades
+                alternativas.
+            </h5>
+        </div>
+    </div>
+    <div class="my-5">
+        <div class="container">
+            <h1 class="text-center font-weight-bold mb-4 color-title">
+                CONSULTAR VALORES
+            </h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="origem">Origem</label>
+                                    <input type="text" id="origem" class="form-control" required />
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="destino">Destino</label>
+                                    <input type="text" id="destino" class="form-control" required />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="partida">Data de partida</label>
+                                    <input type="date" id="partida" class="form-control" required />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="volta">Data de volta</label>
+                                    <input type="date" id="volta" class="form-control" required />
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-submit text-white btn-lg mt-4">Consultar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

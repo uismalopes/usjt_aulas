@@ -1,0 +1,31 @@
+:root {
+  --color-primary: #1bbc9b;
+  --color-primary-hover: #069c7e;
+  --color-secundary: #2d3e50;
+  --color-white: #fff;
+  --color-label: #888;
+}
+
+html, body, textarea, input, button {
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+  background-color: var(--color-secundary);
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.banner {
+  background-color: var(--color-primary);
+}
+
+.btn-submit {
+  background-color: var(--color-primary);
+}
+
+.color-title {
+  color: var(--color-secundary);
+}
